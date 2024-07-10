@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!-- Website template by freewebsitetemplates.com -->
+
+<head>
+	<title>Laura Paya Suarsih - Home</title>
+	<meta charset="utf-8">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<script>
+		function funFact() {
+			const fact = [
+				"Ariana's name is inspired by Princess Oriana from Felix the Cat.",
+				"She loves horror movies and can't get enough of them.",
+				"Her favorite color is lavender.",
+				"She's now a world-famous singer, but Ariana never made it into her school choir.",
+				"Ariana Grande is a huge fan of the Harry Potter series.",
+				"Ariana Grande's first professional role was in the Broadway musical 13.",
+				"Ariana Grande has a severe allergy to tomatoes.",
+			];
+			var num = Math.floor(Math.random() * 7);
+			alert(fact[num]);
+		}
+		function welcome() {
+			alert("welcome to Laura's Website");
+		}
+
+	</script>
+</head>
+
+<body onload="welcome()">
+	<div id="page">
+		<div id="header">
+			<div>
+				<a href="index.html" class="logo"><img class="logo" src="images/logo.png" alt=""></a>
+				<ul class="navigation">
+					<li>
+						<a class="active" href="index.html">Home</a>
+					</li>
+					<li>
+						<a href="about.html">About</a>
+					</li>
+					<li class="middle">
+						<a href="songs.html">Songs</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div id="body">
+			<div class="featured">
+				<ul>
+					<li>
+						<a href="index.html"><img src="images/sunshine_ariana_ed.png" alt=""></a>
+					</li>
+					<li>
+						<a href="index.html"><img src="images/album_ariana_ed.png" alt=""></a>
+					</li>
+				</ul>
+			</div><br><br>
+			<div class="box" style="font-family:'didact_gothicregular';">
+				<p>Fun facts about Ariana Grande</p>
+				<button class="button" onclick="funFact()">Click Here</button>
+			</div>
+		</div>
+		<div id="footer">
+			<div>
+				<ul class="connect">
+					<li>
+						<a href="https://www.arianagrande.com/" class="">&nbsp;</a>
+					</li>
+					<li>
+						<a href="https://www.arianagrande.com/" class="email">&nbsp;</a>
+					</li>
+					<li>
+						<a href="https://www.facebook.com/arianagrande" class="facebook">&nbsp;</a>
+					</li>
+					<li>
+						<a href="https://x.com/ArianaGrande" class="twitter">&nbsp;</a>
+					</li>
+				</ul>
+				<span>Laura Paya Suarsih 23314076</span>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
